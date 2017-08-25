@@ -1,0 +1,21 @@
+接收机通道（6通道）：
+CH1 : 左右
+CH2 : 上下
+CH3 : 油门
+CH4 : 偏航
+CH5 : VRA旋钮 ，顺时针增大
+CH6 : VRB旋钮 ，顺时针增大
+
+STM32F103C8T6 PWM输入 （TIM4）：
+
+CH1: PB6
+CH2: PB7
+CH3: PB8
+CH4: PB9
+
+STM32F103C8T6 PWM输出 （TIM3）：
+
+CH1: PA6
+CH2: PA7
+CH3: PB0
+CH4: PB1

@@ -15,9 +15,9 @@ void init_all()
 	
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 	
-	//TIM4_Cap_Init(0xffff,72-1);
+	TIM4_Cap_Init(0xffff,72-1);
 	
-	//TIM3_PWM_Init(0xffff,72-1);
+	TIM3_PWM_Init(0xffff,72-1);
 	
 	//ultra_Init();
 	
